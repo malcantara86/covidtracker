@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/beige"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_first_name"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="@string/first_name"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/register_last_name"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="@string/last_name"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/register_contact"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="@string/contact_no"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+    <EditText
+        android:id="@+id/register_confirm_pass"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="@string/confirm_pass"
+        android:inputType="textPassword"
+        android:fontFamily="@font/sunday_ft"
+        android:textSize="14dp"
+        android:textColor="@color/gray"/>
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/sunday_ft"
+        android:background="@drawable/green_rounded_btn"
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        android:textAllCaps="false"
+        android:text="@string/register"
+        android:onClick="register"/>
+
+</LinearLayout>
